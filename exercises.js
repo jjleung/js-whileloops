@@ -18,7 +18,17 @@ while (i<10){
 
 /*1. Use a while loop and print out a list of numbers from 1 to 10*/
 
+console.log("** * * Problem 1 * * **");
 
+var listNum = 1;
+
+while(listNum <= 10){
+
+	console.log(listNum);
+	listNum++;
+}
+
+console.log("----------------------------------------------------------");
 
 /*2. Use a while loop to create the following message:
 
@@ -29,7 +39,17 @@ while (i<10){
 ...
 "Now serving 11"*/
 
+console.log("** * * Problem 2 * * **");
 
+var serveNum = 1;
+
+while (serveNum <= 11){
+
+	console.log("Now serving " + serveNum + ".");
+	serveNum++;
+}
+
+console.log("----------------------------------------------------------");
 
 /*3. Use a while loop to loop through the tvShows array and print out the following:
 
@@ -41,7 +61,9 @@ while (i<10){
 
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
 
+console.log("** * * Problem 3 * * **");
 
+console.log("----------------------------------------------------------");
 
 /*4. Generate a multiplication table for the number 3 and print out the following:
 
@@ -55,7 +77,9 @@ var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking D
 
 */
 
+console.log("** * * Problem 4 * * **");
 
+console.log("----------------------------------------------------------");
 
 
 
@@ -86,8 +110,9 @@ devleague homie!
 ...
 ...*/
 
+console.log("** * * Problem 5 * * **");
 
-
+console.log("----------------------------------------------------------");
 
 
 
