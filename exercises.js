@@ -63,6 +63,13 @@ var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking D
 
 console.log("** * * Problem 3 * * **");
 
+while (tvShows.length > 0){
+
+	console.log("I like to binge watch " + tvShows[0] + ".");
+	tvShows.shift();
+
+}
+
 console.log("----------------------------------------------------------");
 
 /*4. Generate a multiplication table for the number 3 and print out the following:
@@ -78,6 +85,14 @@ console.log("----------------------------------------------------------");
 */
 
 console.log("** * * Problem 4 * * **");
+
+var mult = 1;
+
+while (mult <= 9){
+
+	console.log(mult + " x 3 = " + mult*3);
+	mult++;
+}
 
 console.log("----------------------------------------------------------");
 
