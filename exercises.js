@@ -127,6 +127,31 @@ devleague homie!
 
 console.log("** * * Problem 5 * * **");
 
+var devNum = 1;
+
+while (devNum <= 100){
+
+	if (devNum%3 == 0 && devNum%5 == 0){
+
+		console.log("devleague homie!");
+
+	} else if (devNum%3 == 0){
+
+		console.log("dev");
+
+	} else if (devNum%5 == 0){
+
+		console.log("league");
+
+	} else{
+
+		console.log(devNum);
+	}
+
+	devNum++;
+
+}
+
 console.log("----------------------------------------------------------");
 
 
